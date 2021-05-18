@@ -6,6 +6,7 @@ function App() {
     const [state, setstate] = useState(0);
     function add() {
         let num = state + 1;
+        setstate(num++); 
         setstate(num++);
     }
     useEffect(() => {
