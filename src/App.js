@@ -11,7 +11,9 @@ function App() {
     }
     useEffect(() => {
         console.log(2);
+        debugger
         return () => {
+            debugger
             console.log(1);
         };
     }, [state]);
